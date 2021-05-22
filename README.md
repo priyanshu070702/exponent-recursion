@@ -18,9 +18,11 @@ double e(int x,int n){
         return r+(m/a);
     }
 }
+    
 double eh(int x,int n){
     static double s=1,m=1,a=1;
     double q=1;
+    
     if(n==0){
         return s;
     }
@@ -32,6 +34,7 @@ double eh(int x,int n){
         
     }
 }
+    
 int main()
 {
     cout<<e(2,5)<<endl;
